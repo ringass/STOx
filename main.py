@@ -10,7 +10,7 @@ from robot_controller import RobotController
 
 def build_simulation_h(simulation_h: SimulationHandler) -> None:
     robot = Robot(Vector2D(100, 100))
-    robot.set_engines_vel(0.5, -0.5, 0.5)
+    robot.set_engines_vel(0, 0, 0)
     
     simulation_h.add_object(RobotController(robot))
     simulation_h.add_object(Background())
