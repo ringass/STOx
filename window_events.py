@@ -1,7 +1,7 @@
 from simulator_interfaces import EventSensitive
 from pygame.locals import *
 import pygame
-from vector import Vector2D  
+from vector import Vector2D
 
 
 class WindowEvents(EventSensitive):
@@ -14,5 +14,5 @@ class WindowEvents(EventSensitive):
             exit()
 
         if event.type == pygame.MOUSEBUTTONDOWN:
-            self.goal = pygame.mouse.get_pos()  
-            self.robot.set_goal(Vector2D(self.goal[0], self.goal[1]))  
+            self.goal = pygame.mouse.get_pos()
+            self.robot.set_goal(Vector2D(self.goal[0], self.goal[1]))
