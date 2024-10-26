@@ -1,6 +1,6 @@
 # STOx's Planner
 
-STOx's Planner é um algoritmo de planejamento de caminho projetado para ambientes com obstáculos. Ele gera um caminho reto da posição inicial até a posição final e, quando detecta obstáculos, calcula um subobjetivo próximo ao obstáculo para dividir o caminho em subproblemas menores de forma recursiva.
+STOx's Planner é um algoritmo de path planning
 
 ## Como o Algoritmo Funciona
 
